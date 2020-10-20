@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+    animation-name: animateCircle;
+    font-family: 'Noto Sans', sans-serif;
+    animation-duration: 4s;
+   
+}
+
+
+@keyframes animateCircle{
+    0%{
+        transform: rotate(0deg);
+    }100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: auto;
+
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #2F4F4F;
+}
+
+p {
+list-style-type: none;
+   
+    background-color: black;
+   
+
+    text-align: center;
+
+}
+
+h3 {
+  list-style-type: none;
+    margin:auto; 13px;
+    padding: 9px;
+    overflow: hidden;
+    background-color: blue;
+    width: auto%;
+    display: block;
+
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none; 
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #191970;
+    padding-top: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.container {
+    border: 7px solid#000000;
+    padding: 50px;
+    margin: 10px;
+}
+
+.konten {
+    content: center;
+    border: 15px solid #000000;
+    padding: 50px;
+    margin: 20px;
+    bottom: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+h4 {
+    list-style-type: none;
+    margin:auto; 13px;
+    padding: 13px;
+    overflow: hidden;
+    background-color: #00bfff;
+    width: auto%;
+    display: block;
+
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+
+
+}
+
+p {
+    text-align: center;
+}
+
+
+.flex-container {
+   		width: 950px;
+        height: 90px;
+        display: flex;
+        justify-content: flex-end;
+        border : 5px solid #333;
+        margin : 5px;
+}
+		.box-1{background: gray;
+		border: #000 solid 1px;
+		padding: 1rem;
+		text-align: center; 
+		flex: 1;}
+
+		
+		.box-2{background: gray;
+		border: #000 solid 1px;
+		padding: 1rem;
+		text-align: center; 
+		flex: 1;}
+
+   		 .box-3{background: gray;
+		border: #000 solid 1px;
+		padding: 1rem;
+		text-align: center; 
+		flex: 1;}
+
+		.box-4{background: gray;
+		border: #000 solid 1px;
+		padding: 1rem;
+		text-align: center; 
+		flex: 1;}
+
+		.box-5{background: gray;
+		border: #000 solid 1px;
+		padding: 1rem;
+		text-align: center; 
+		flex: 1;}
+
+		.box-6{background: gray;
+		border: #000 solid 1px;
+		padding: 1rem;
+		text-align: center; 
+		flex: 1;}
+
+		.box-7{background: gray;
+		border: #000 solid 1px;
+		padding: 1rem;
+		text-align: center; 
+		flex: 1;}
+
+		.box-8{background: gray;
+		border: #000 solid 1px;
+		padding: 1rem;
+		text-align: center; 
+		flex: 1;}
+
+		.box-9{background: gray;
+		border: black solid 1px;
+		padding: 1rem;
+		text-align: center; 
+		flex: 1;}
+
+
+body {
+    color red;
+}
+
+.title{
+    font-size: 6rem;
+}
+
+.subtitle {
+    font-size: 4rem;
+}
+   @media all and (max-width: 500px){
+   	body {
+   		color: blue;
+   	}
+   }
+
+   .contact-form {
+ 
+    background-color: #ffffff;
+    border: 15px solid#ffffff;
+    padding: 50px;
+    margin: 20px;
+    bottom: 50px;
+}
+
+
+<style scoped="" type="text/css">
+#comments,.post_meta,#blog-pager{display:none}
+form{color:#666}
+form.payforpal{margin:;text-align:left}
+#kontak-arlina{margin:auto;max-width:640px}
+#ContactForm1_contact-form-name,#ContactForm1_contact-form-email{height:auto;margin:5px auto;padding:15px 12px;background:#fff;color:#444;border:1px solid rgba(0,0,0,.14);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);border-radius:3px;width:100%;min-width:100%;transition:all 0.5s ease-out}
+#ContactForm1_contact-form-email-message{width:100%;height:175px;margin:5px 0;padding:15px 12px;background:#fff;color:#444;border:1px solid rgba(0,0,0,.14);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);border-radius:3px;resize:none;transition:all 0.5s ease-out}
+#ContactForm1_contact-form-name:focus,#ContactForm1_contact-form-email:focus,#ContactForm1_contact-form-email-message:focus{outline:none;background:#fff;color:#444;border-color:#66afe9;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,0.6)}
+#ContactForm1_contact-form-submit{float:left;background:#1abc9c;margin:auto;vertical-align:middle;cursor:pointer;padding:16px 20px;font-size:14px;text-align:left;letter-spacing:.5px;border:0;width:100%;border-radius:4px;color:#fff;font-weight:500;transition:all .2s ease}
+#ContactForm1_contact-form-submit:hover{background:#16a085;color:#fff;}
+#ContactForm1_contact-form-error-message,#ContactForm1_contact-form-success-message{width:100%;margin-top:35px}
+.contact-form-error-message-with-border{background:#f47669;border:0;box-shadow:none;color:#fff;padding:5px 0;border-radius:3px}
+.contact-form-success-message{background:#4fc3f7;border:0;box-shadow:none;color:#fff;border-radius:3px}
+img.contact-form-cross{line-height:40px;margin-left:5px}
+.post-body input{width:initial}
+@media only screen and (max-width:640px){
+#ContactForm1_contact-form-name, #ContactForm1_contact-form-email,#ContactForm1_contact-form-submit{width:100%;}}
+</style>
+<script type="text/javascript">
+//<![CDATA[
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+//]]>
+</script>
+<script src="https://www.blogger.com/static/v1/widgets/2271878333-widgets.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '3263220808940184577';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d3263220808940184577','//infiniteidn.blogspot.com/','3263220808940184577');
+_WidgetManager._RegisterWidget('_ContactFormView', new _WidgetInfo('ContactForm1', 'footer1', null, document.getElementById('ContactForm1'), {'contactFormMessageSendingMsg': 'Sending...', 'contactFormMessageSentMsg': 'Your message has been sent.', 'contactFormMessageNotSentMsg': 'Message could not be sent. Please try again later.', 'contactFormInvalidEmailMsg': 'A valid email address is required.', 'contactFormEmptyMessageMsg': 'Message field cannot be empty.', 'title': 'Contact Form', 'blogId': '3263220808940184577', 'contactFormNameMsg': 'Name', 'contactFormEmailMsg': 'Email', 'contactFormMessageMsg': 'Message', 'contactFormSendMsg': 'Send', 'submitUrl': 'https://www.blogger.com/contact-form.do'}, 'displayModeFull'));
+//]]>
+</script>
