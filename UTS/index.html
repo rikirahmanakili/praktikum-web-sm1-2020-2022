@@ -1,0 +1,471 @@
+<html lang="en">
+    <head> 
+    <meta charset="utf-8">
+
+    <style>
+.flex-container {
+  display: flex;
+  background-color: yellow;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+    <title>Dashboard Covid 19 Indonesia</title>
+    <meta name="description" content="Dashboard Covid 19 Indonesia. Data kasus per provinsi dan informasi lainnya terkait penanganan Covid 19">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src=”coding.js”></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Header dashboard -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Dashboard Covid-19</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Kasus</a>
+            <a class="nav-link" href="#">Bantuan Sosial</a>
+            <a class="nav-link" href="#">Donasi</a>
+            <a class="nav-link" href="#">Kontak</a>
+            <a class="nav-link" href="#">Download Apps</a>
+            
+          </div>
+        </div>
+      </nav>
+      <div class="row justify-content-center">
+      <div class="col-xl-12 mt-3">
+        <div class="alert">
+          <h4 class="alert-heading">Pengumuman</h4>
+          <p>Ini hanyalah project kuliah, jadi tidak akan selalu di update secara realtime.</p>
+          <p class="mb-0">Jangan lupa selalu melakukan protokol kesehatan ketika keluar rumah</p>
+          <hr/>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Konten utama dashboard -->
+    <div id="konten">
+      
+      <header>
+       <center> <h1 class="name">Kasus COVID-19 Asia Tenggara</h1> </center>
+      <center><small class="small">Update per 5 jam</small></center>
+      </header>
+      <section id="konten-rangkuman-kasus">
+        <p></p>
+
+        <section id="konten-rangkuman-kasus">
+            
+            <div class="card mx-auto ml-2" style="width: 22%">
+              <div class="card-body">
+                <center><h4>Total terkonfirmasi</h4>
+                  <p>397,900</p><br>
+                  <a href="blank"><p><small>update</small></p></a>
+                </center>
+          </div>
+          </div>
+          <p></p>
+          <div class="card mx-auto ml-2" style="width: 22%">
+            <div class="card-body">
+              <center><h4>Isolasi / dalam perawatan</h4>
+              <p>98,274</p>
+              <a href="blank"><p><small>update</small></p></a>
+            </center>
+          </div>
+        </div>
+        <p></p>
+        <div class="card mx-auto ml-2" style="width: 22%">
+          <div class="card-body">
+            <center><h4>Selesai isolasi / dalam perawatan</h4>
+            <p>889,263</p>
+            <a href="blank"><p><small>update</small></p></a>
+          </center>
+           </div>
+      </div>
+      <p></p>
+        <div class="card mx-auto ml-2" style="width: 22%">
+          <div class="card-body"></div>
+            <center><h4>Meninggal</h4>
+            <p>11,253</p>
+            <a href="blank"><p><small>update</small></p></a>
+          </center>
+           </div>
+      </section></section></div>
+      <hr/>
+
+      <!--call center -->
+ <div class="row">
+      <div class="col-xl-3">
+        <a class="card pb-3 card-hover-helper" href="http://tel:119/">
+          <div class="card-body text-center">
+            <h5 class="card-title bold font-weight-bold">Call Center</h5>
+            <p>Nomor Darurat</p>
+            <p class="card-text">
+<svg
+                width="1em"
+                height="1em"
+                viewBox="0 0 16 16"
+                class="bi bi-telephone-fill"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"
+                />
+              </svg>
+              119
+            </p>
+          </div>
+        </a>
+      </div>
+
+<!-- facebook -->
+      <div class="col-xl-3">
+        <a
+          class="card pb-3 card-hover-helper"
+          href="https://wa.me/6285155317321"
+        >
+          <div class="card-body text-center">
+            <h5 class="card-title bold font-weight-bold">Kontak Saya</h5>
+            <p class="card-text">Info seputar COVID-19</p>
+            <p class="card-text">
+              Klik Untuk Mengikuti
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="col-xl-6">
+        <div class="card card-hover-helper">
+          <div class="card-body text-center">
+            <div class="row justify-content-center">
+                <h5 class="card-title bold font-weight-bold"><p>
+                  Jika kalian ingin mengetahui perkembangan kami, silakan hubungi kami
+                  untuk mendapatkan update terbaru.
+                </p>
+                </h5>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr/>
+    
+      <h4 class="mt-3 text-center">
+        Presentase Keterisian Ranjang <br />di Rumah Sakit Ketika Covid-19
+      </h4>
+      <div class="col-xl-8 mt-3">
+        <div class="card bg-primary text-white">
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="input-j">Jumlah Total Ranjang dirumah Sakit.</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="input-j"
+                  placeholder="Masukan Totalnya."
+                />
+              </div>
+              <div class="form-group">
+                <label for="input-t"
+                  >Jumlah total ranjang di rumah sakit yang terisi.</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="input-t"
+                  placeholder="Masukan Totalnya."
+                />
+              </div>
+              <input
+                type="button"
+              id="input-button"
+              value="Kalkulasi"
+              onclick="prosesPerhitungan()"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 mt-3">
+        <div class="row">
+          <div class="col-xl-12 mb-3">
+            <div class="card bg-info text-white">
+              <div class="card-body text-center">
+                <h4>Persentase Keterisian</h4>
+                <h5 id="output-ptj"></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-12 mb-4">
+            <div class="card bg-success text-white">
+              <div class="card-body text-center">
+                <h4>Kondisi</h4>
+                <h5 id="output-k"></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<script>
+    //   Membuat function prosesPerhitungan
+      function prosesPerhitungan() {
+        // menampilkan string di console 
+        console.log("Fungsi prosesPerhitungan() dipanggil");
+
+        // memilih nilai dari id input-j (Jumlah total ranjang di rumah sakit)
+        var j = document.getElementById("input-j").value;
+
+        // memilih nilai dari id input-t (Jumlah total ranjang di rumah sakit yang terisi)
+        var t = document.getElementById("input-t").value;
+
+        // Buat formula untuk menghitung persentase keterisian ranjang (ptj) !
+        // Persentase keterisian ranjang = ranjang yang terisi dibagi dengan total ranjang
+        
+        
+        var ptj = t / j;
+
+        // menampilkan text melalui output-ptj
+        document.getElementById("output-ptj").textContent = ptj + " %";
+
+        /*
+            Buat formula untuk menampilkan kondisi keterisian ranjang (k)
+            Jika dibawah 30%, kondisi = AMAN
+            Jika 30% - 70%, kondisi = WASPADA
+            Jika diatas 70%, kondisi = DARURAT
+          */
+        var k = "";
+        if (ptj <= 0.3) {
+            k = "AMAN"
+        } else if (ptj <= 0.7) {
+            k = "WASPADA"
+        } else if (ptj > 0.7) {
+            k = "DARURAT"
+        }
+
+        // menampilkan ketersediaan ranjang (k) melalui it output-k
+        document.getElementById("output-k").textContent = k;
+      }
+    </script>
+    <div class="row justify-content-center mt-3">
+      <div class="col-xl-6">
+        <h4 class="mt-3">Grafik Berdasarkan Umur (Tahun)</h4>
+        <div class="card border border-success">
+          <div class="card-body">
+            <img src="https://asset.kompas.com/crops/h7s0I_IIEyELPQx7I2X7RyQ1i8g=/124x46:1311x838/780x390/data/photo/2020/06/17/5eea065418552.png" width="550" height="300">  </div>
+        </div>
+      </div>
+      <div class="col-xl-6">
+        <h4 class="mt-3">Grafik Berdasarkan Jenis Kelamin</h4>
+        <div class="card border border-info">
+          <div class="card-body">
+            <img src="https://lh6.googleusercontent.com/zobsW4I2DVLnEXO8fZ1VpToIy_z-7oPHe3QqzsMTgVD_P18uLF0wCcNoBSuGgbjhUWP8V2ESom1Ekjp8-Vdfb4GbVSG0E3gxNAypB1MORfJTbESsy7iNj9woMzDo07wGzXpX3Tti" width="550" height="300">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row justify-content-center">
+      <div class="col-xl-12">
+        <div class="text-center mt-4">
+          <b>
+            <h4>Apa yang Harus Dilakukan ?</h4>
+          </b>
+        </div>
+      </div>
+      <hr/>
+      <div class="col-xl-6">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/jabarprov-covid19.appspot.com/o/public%2Fkonten-covid-19.png?alt=media&token=c617647b-1812-49a7-b156-cb9a66fdf4e6"
+          alt=""
+        />
+      </div>
+      <div class="col-xl-6 pl-5">
+        <h3 class=""><b>Apa itu Covid-19 ?</b></h3>
+        <p>
+          COVID-19 adalah penyakit yang disebabkan oleh Novel Coronavirus
+          (2019-nCoV), jenis baru coronavirus yang pada manusia menyebabkan
+          penyakit mulai flu biasa hingga penyakit yang serius seperti Middle
+          East Respiratory Syndrome (MERS) dan Sindrom Pernapasan Akut Berat/
+          Severe Acute Respiratory Syndrome (SARS).<br /><br />Pada 11 Februari
+          2020, World Health Organization (WHO) mengumumkan nama penyakit yang
+          disebabkan 2019-nCov, yaitu <b>Coronavirus Disease (COVID-19)</b>.
+        </p>
+        <h3 class="mt-3"><b>Gejala</b></h3>
+        <p>
+          Gejala umum berupa demam ≥38°C, batuk kering, dan sesak napas. Jika
+          ada orang yang dalam 14 hari sebelum muncul gejala tersebut pernah
+          melakukan perjalanan ke negara terjangkit, atau pernah merawat/kontak
+          erat dengan penderita COVID-19, maka terhadap orang tersebut akan
+          dilakukan pemeriksaan laboratorium lebih lanjut untuk memastikan
+          diagnosisnya.
+        </p>
+        <h3 class="mt-3"><b>Penularan</b></h3>
+        <p>
+          Seseorang dapat terinfeksi dari penderita COVID-19. Penyakit ini dapat
+          menyebar melalui tetesan kecil (droplet) dari hidung atau mulut pada
+          saat batuk atau bersin. Droplet tersebut kemudian jatuh pada benda di
+          sekitarnya. Kemudian jika ada orang lain menyentuh benda yang sudah
+          terkontaminasi dengan droplet tersebut, lalu orang itu menyentuh mata,
+          hidung atau mulut (segitiga wajah), maka orang itu dapat terinfeksi
+          COVID-19. Seseorang juga bisa terinfeksi COVID-19 ketika tanpa sengaja
+          menghirup droplet dari penderita. Inilah sebabnya mengapa kita penting
+          untuk menjaga jarak hingga kurang lebih satu meter dari orang yang
+          sakit.
+        </p>
+      </div>
+    </div>
+
+<hr/>
+   
+        <h4>Info Praktikal</h4>
+        <div class="card p-5">
+          <table>
+            <tbody>
+              <tr>
+                <td><p>Cuci Masker Kain dengan Benar</p></td>
+                <td>
+                  <a class="icon"><i class="fas fa-download"> Unduh</i></a>
+                </td>
+                <td>
+                  <a class="icon"><i class="fas fa-share-alt"> Bagikan</i></a>
+                </td>
+              </tr>
+              <tr>
+                <td><p>Ventilasi Udara Baik, Cegah Covid-19</p></td>
+                <td>
+                  <a class="icon"><i class="fas fa-download"> Unduh</i></a>
+                </td>
+                <td>
+                  <a class="icon"><i class="fas fa-share-alt"> Bagikan</i></a>
+                </td>
+              </tr>
+              <tr>
+                <td><p>Jangan Kendor 3M, Waspada Klaster Keluarga</p></td>
+                <td>
+                  <a class="icon"><i class="fas fa-download"> Unduh</i></a>
+                </td>
+                <td>
+                  <a class="icon"><i class="fas fa-share-alt"> Bagikan</i></a>
+                </td>
+              </tr>
+              <tr>
+                <td><p>7 Poin Penting Saat Pakai Masker</p></td>
+                <td>
+                  <a class="icon"><i class="fas fa-download"> Unduh</i></a>
+                </td>
+                <td>
+                  <a class="icon"><i class="fas fa-share-alt"> Bagikan</i></a>
+                </td>
+              </tr>
+              <tr>
+                <td><p>Ketersediaan & Keterisian Tempat Tidur</p></td>
+                <td>
+                  <a class="icon"><i class="fas fa-download"> Unduh</i></a>
+                </td>
+                <td>
+                  <a class="icon"><i class="fas fa-share-alt"> Bagikan</i></a>
+                </td>
+              </tr>
+              <tr>
+                <td><p>Begini Jenis Risiko Kegiatan di Tempat Kerja</p></td>
+                <td>
+                  <a class="icon"><i class="fas fa-download"> Unduh</i></a>
+                </td>
+                <td>
+                  <a class="icon"><i class="fas fa-share-alt"> Bagikan</i></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+<hr/>
+
+      
+        <h4>RS Rujukan Covid-19</h4>
+          <div class="card">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">Nama RS</th>
+                  <th scope="col">Alamat</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">RSU Dr. Hasan Sadikin</th>
+                  <td>Jl. Pasteur No. 38, Kota Bandung</td>
+                </tr>
+                <tr>
+                  <th scope="row">RSTP Dr. H. A. Rotinsulu</th>
+                  <td>Jl. Bukit Jarian No.40, Hegarmanah, Kota Bandung</td>
+                </tr>
+                <tr>
+                  <th scope="row">RSAU Dr. M. Salamun Bandung</th>
+                  <td colspan="2">Jl. Ciumbuleuit No.203, Kota Bandung</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+       <!-- contact us -->
+       <div class="contact-form">
+       <h3><center>Contact Us</center></h3>
+<form id="kontak-arlina" name="contact-form">
+ 
+<input id="ContactForm1_contact-form-name" name="name" placeholder="Name *" size="30" type="text" value="" />
+ 
+<input id="ContactForm1_contact-form-email" name="email" size="30" placeholder="Email *" type="text" value="" />
+ 
+<textarea cols="25" id="ContactForm1_contact-form-email-message" name="email-message" placeholder="Message *" rows="5"></textarea>
+<input id="ContactForm1_contact-form-submit" type="button" value="Send Message" />  
+<div style="max-width: 100%; text-align: left; width: 100%;">
+<div id="ContactForm1_contact-form-error-message">
+</div>
+<div id="ContactForm1_contact-form-success-message">
+</div>
+</div>
+</form>
+</div>
+    <!-- Bagian footer dari dashboard -->
+    <footer id="footer">
+       <footer class="footer">
+         <p class="text-center"> Tim Pengelola Dashboard COVID-19 Indonesia</p>
+            </footer>
+      
+    </footer> 
+ 
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>
